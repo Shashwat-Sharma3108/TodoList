@@ -13,7 +13,7 @@ app.use(express.static("public"));
 /*Database code*/ 
 //mongodb://localhost:27017
 //mongodb+srv://admin_Shashwat:Binatone@3108@cluster1.yglo4.mongodb.net/todoDB?retryWrites=true&w=majority
-mongoose.connect("mongodb+srv://admin_Shashwat:Binatone@3108@cluster1.yglo4.mongodb.net/todoDB?",{
+mongoose.connect("mongodb+srv://admin_Shashwat:<Password>cluster1.yglo4.mongodb.net/todoDB?",{
     useNewUrlParser : true,
     useFindAndModify : false
 });
